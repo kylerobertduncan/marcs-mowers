@@ -9,3 +9,7 @@
 - [ ] format list
 - [ ] icons for contacts
 - [ ] google drive for images
+
+# palettes:
+- https://mycolor.space/?hex=%23FFB844&sub=1
+- https://colorhunt.co/palette/bbd6b8aec2b694af9fdbe4c6

@@ -11,7 +11,6 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
 /* = = = = = general = = = = =  */
-/* palette: https://mycolor.space/?hex=%23FFB844&sub=1 */
 
 html {
   color: #2F4858;
@@ -115,10 +114,10 @@ section h2 {
   margin-bottom: 10px;
 }
 
-#contact li {
+main li {
   margin-bottom: 10px;
 }
-#contact li:last-child {
+main li:last-child {
   margin-bottom: 0;
 }
 
@@ -151,5 +150,14 @@ footer p {
   }
   p {
     font-size: 1rem;
+  }
+  #about {
+    height: 150vh;
+  }
+  #about .wrapper {
+    flex-direction: column;
+  }
+  #about .wrapper .imageWrapper {
+    margin-right: 0;
   }
 }
