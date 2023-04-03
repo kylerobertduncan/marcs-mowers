@@ -17,7 +17,6 @@ html {
   cursor: default;
   font-family: 'Raleway', sans-serif;
   font-size: 125%;
-  /* text-align: center; */
 }
 
 section {
@@ -35,7 +34,7 @@ h1, h2, h3, p {
 
 p {
   font-size: 1.25rem;
-  /* font-weight: 300; */
+  font-weight: 300;
   text-align: left;
 }
 
@@ -72,7 +71,7 @@ ul {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 900px;
   width: 90%;
 }
 
@@ -111,14 +110,33 @@ section:nth-child(even) {
 }
 section h2 {
   font-size: 2.25rem;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
+}
+section h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 main li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 main li:last-child {
   margin-bottom: 0;
+}
+
+#services ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#contact a {
+  display: flex;
+  align-items: center;
+}
+
+#contact a *:first-child {
+  margin-right: 20px;
 }
 
 #about .wrapper {
@@ -127,8 +145,12 @@ main li:last-child {
   justify-content: space-between;
 }
 
-#about .wrapper .imageWrapper {
+#about .imageWrapper {
   margin-right: 20px;
+}
+
+#about .aboutText {
+  max-width: 50%;
 }
 
 footer {

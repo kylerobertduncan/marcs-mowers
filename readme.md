@@ -6,8 +6,8 @@
 - [ ] possilbe background photos
 
 # kyle to:
-- [ ] format list
-- [ ] icons for contacts
+- [x] format list
+- [x] icons for contacts
 - [ ] google drive for images
 
 # palettes:
